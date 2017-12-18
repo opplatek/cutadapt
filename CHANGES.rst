@@ -9,7 +9,7 @@ v1.15 (2017-11-23)
   it, use the option ``-j N`` (or the long form ``--cores=N``), where ``N`` is
   the number of cores to use. Multi-core support is only available on Python 3,
   and not yet with some command-line arguments. See
-  :ref:`the new section about multi-core in the documentation <multicore>`
+  `the new section about multi-core in the documentation <http://cutadapt.readthedocs.io/en/stable/guide.html#multi-core-support>`
   for details. When writing ``.gz`` files, make sure you have ``pigz`` installed
   to get the best speedup.
 * The plan is to make multi-core the default (automatically using as many cores as
